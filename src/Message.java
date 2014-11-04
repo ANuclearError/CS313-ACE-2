@@ -4,7 +4,7 @@
  * of the exercise being undertaken.
  * 
  * @author Aidan O'Grady
- * @version 0.3
+ * @version 1.0
  * @since 0.1
  *
  */

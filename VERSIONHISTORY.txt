@@ -66,4 +66,20 @@ Finished:
 		Created JUnit test cases in the class MessageImplTest, this is done to
 		ensure that the setters and getters of the class are correctly
 		implemented. Currently I am unsure if the testing requires further
-		cases, since the methods being tested are relatvively simple.
+		cases, since the methods being tested are relatively simple.
+		
+================================================================================
+
+Version 1:	Message Interface & Implemantation
+
+Commenced:	04/11/2014
+Finished:	
+
+--------------------------------------------------------------------------------
+
+	v1.0 - 04/11/2014
+	
+		Created the Client and Server classes, however so far their content has
+		not been implemented yet. Instead, the initial Javadoc has been created
+		The current plan is to examine the previous version of my solution, and
+		then analyse how it can be improved, before moving forward with the project.
