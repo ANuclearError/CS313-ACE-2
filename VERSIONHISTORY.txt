@@ -52,3 +52,11 @@ Finished:
 		The scope of the interface has been extended to also have methods for
 		getting and setting the string that will be sent from the client. The
 		Javadoc for this interface has also been written.
+
+	v0.2 - 04/11/2014
+
+		Created the implementation of the Message interface, called MessageImpl.
+		The class has had all the methods completed as well. For the purposes of
+		thoroughness, testing must be done upon the implementation before it is
+		wise to continue on with the project. Although I am of course confident
+		in the correctness of the implementation.
