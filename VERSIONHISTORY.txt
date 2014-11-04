@@ -60,3 +60,10 @@ Finished:
 		thoroughness, testing must be done upon the implementation before it is
 		wise to continue on with the project. Although I am of course confident
 		in the correctness of the implementation.
+
+	v0.3 - 04/11/2014
+
+		Created JUnit test cases in the class MessageImplTest, this is done to
+		ensure that the setters and getters of the class are correctly
+		implemented. Currently I am unsure if the testing requires further
+		cases, since the methods being tested are relatvively simple.

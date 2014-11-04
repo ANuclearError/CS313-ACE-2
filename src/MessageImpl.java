@@ -8,7 +8,7 @@ import java.io.Serializable;
  * the client and server.
  * 
  * @author Aidan O'Grady
- * @version 0.2
+ * @version 0.3
  * @since 0.2
  *
  */
