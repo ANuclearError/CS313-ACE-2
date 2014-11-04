@@ -2,7 +2,7 @@ CS313-ACE-2 VERSION HISTORY
 
 ================================================================================
 
-Stage -1:	Initial Project (now scrapped)
+Version -1:	Initial Project (now scrapped)
 
 Commenced:	28/10/2014
 Finished:	03/11/2014
@@ -11,7 +11,7 @@ Finished:	03/11/2014
 
 	v-1.0 - 28/10/2014 - 03/11/2014
 
-		Work had initially begun on the assignment, and the completion of a
+		Work had initially begun on the assignment, and the completion of a 
 		single threaded version was completed. However, I felt that it would be
 		wise to overhaul and start again, since I felt that my initial structure
 		in how I went through the assignment was inadequate in terms of 
@@ -22,9 +22,9 @@ Finished:	03/11/2014
 
 		This decision has primarily been made to put my mind more at ease.
 
---------------------------------------------------------------------------------
+================================================================================
 
-Stage 0:	Preparation
+Version 0:	Preparation
 
 Commenced:	04/11/2014
 Finished:	04/11/2014
@@ -33,8 +33,22 @@ Finished:	04/11/2014
 
 	v0.0 - 04/11/2014
 
-		A private GitHub repository was created for the purpose of easier
-		tracking of history and progress of the assignment. This was done in
+		A private GitHub repository was created for the purpose of easier 
+		tracking of history and progress of the assignment. This was done in 
 		tandem with the creation of the README.md and VERSIONHISTORY.txt files. 
 		
+================================================================================
+
+Version 1:	Message Interface & Implemantation
+
+Commenced:	04/11/2014
+Finished:	
+
 --------------------------------------------------------------------------------
+
+	v0.1 - 04/11/2014
+
+		Created the Message interface that is given to us in the assignment.
+		The scope of the interface has been extended to also have methods for
+		getting and setting the string that will be sent from the client. The
+		Javadoc for this interface has also been written.
