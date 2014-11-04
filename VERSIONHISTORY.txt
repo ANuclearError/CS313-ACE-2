@@ -1,0 +1,46 @@
+CS313-ACE-2 VERSION HISTORY
+
+================================================================================
+
+Stage -1:	Initial Project (now scrapped)
+
+Commenced:	28/10/2014
+Finished:	03/11/2014
+
+--------------------------------------------------------------------------------
+
+	v-1.0 - 28/10/2014 - 03/11/2014
+
+		Work had initially begun on the assignment, and the completion of a
+		single threaded version was completed. However, I felt that it would be
+		wise to overhaul and start again, since I felt that my initial structure
+		in how I went through the assignment was inadequate in terms of 
+		documentation and general layout. I felt like I wanted to do an overhaul
+		with a more cohesive approach rather than the trap of diving straight in
+		like I had done so. I still have this original version, but I feel that
+		I will not be disadvantaged by this restart of the project. 
+
+		This decision has primarily been made to put my mind more at ease.
+
+--------------------------------------------------------------------------------
+
+Stage 0:	Preparation
+
+Commenced:	04/11/2014
+Finished:	04/11/2014
+
+--------------------------------------------------------------------------------
+
+	v0.0 - 04/11/2014
+
+		A private GitHub repository was created for the purpose of easier
+		tracking of history and progress of the assignment. This was done in
+		tandem with the README.md and VERSIONHISTORY.txt files. Due to the work
+		on the initial version.
+
+		
+--------------------------------------------------------------------------------
+
+Stage 1:	Exercise 3.17
+
+Commenced: 04/11/2014
