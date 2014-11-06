@@ -4,7 +4,7 @@
  * object from the server, and will display it's content to the user.
  * 
  * @author Aidan O'Grady
- * @version 1.1
+ * @version 1.2
  * @since 1.1
  *
  */

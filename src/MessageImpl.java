@@ -8,7 +8,7 @@ import java.io.Serializable;
  * the client and server.
  * 
  * @author Aidan O'Grady
- * @version 1.1
+ * @version 1.2
  * @since 0.2
  *
  */
@@ -61,10 +61,11 @@ public class MessageImpl implements Message, Serializable{
 	public void setCounts() {
 		characterCount = message.length(); // Character count set based, easy!
 		
-		/*
+		/* 
 		 * The for loop iterates through the string and increments digitCount
 		 * whenever it encounters a digit character, being between '0' and '9'
-		 * inclusively.
+		 * inclusively. 
+		 * 
 		 */
 		for(char character : message.toCharArray()){
 			if(Character.isDigit(character))

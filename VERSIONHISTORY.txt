@@ -90,3 +90,12 @@ Finished:
 		The current plan is to examine the previous version of my solution, and
 		then analyse how it can be improved, before moving forward with the 
 		project.
+
+	v1.2 - 06/11/2014
+
+		Implemented the Server class, adding it's functionality. In terms of
+		breaking up the previous class' main method into smaller pieces, little
+		was achieved since I felt that after removing some print statements used
+		for checking, the code was small enough to not require further breaking 
+		down. This will be reinvestigated during multithreading part of the
+		exercise.
