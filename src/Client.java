@@ -4,8 +4,8 @@
  * object from the server, and will display it's content to the user.
  * 
  * @author Aidan O'Grady
- * @version 1.0
- * @since 1.0
+ * @version 1.1
+ * @since 1.1
  *
  */
 public class Client {

@@ -4,8 +4,8 @@
  * back to the client after setting the counts.
  * 
  * @author Aidan O'Grady
- * @version 1.0
- * @since 1.0
+ * @version 1.1
+ * @since 1.1
  *
  */
 public class Server {

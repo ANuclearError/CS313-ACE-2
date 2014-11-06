@@ -67,6 +67,12 @@ Finished:
 		ensure that the setters and getters of the class are correctly
 		implemented. Currently I am unsure if the testing requires further
 		cases, since the methods being tested are relatively simple.
+
+	v1.0 - 04/11/2014
+
+		The Message interface, implementation and unit testing are all deemed
+		ready to go and have had some tidying up to finalise this version.
+		Updated VERSIONHISTORY.txt
 		
 ================================================================================
 
@@ -77,9 +83,10 @@ Finished:
 
 --------------------------------------------------------------------------------
 
-	v1.0 - 04/11/2014
+	v1.1 - 04/11/2014
 	
 		Created the Client and Server classes, however so far their content has
 		not been implemented yet. Instead, the initial Javadoc has been created
 		The current plan is to examine the previous version of my solution, and
-		then analyse how it can be improved, before moving forward with the project.
+		then analyse how it can be improved, before moving forward with the 
+		project.
