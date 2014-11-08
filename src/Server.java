@@ -7,7 +7,7 @@ import java.io.*;
  * back to the client after setting the counts.
  * 
  * @author Aidan O'Grady
- * @version 1.2
+ * @version 1.3
  * @since 1.1
  *
  */
@@ -32,6 +32,7 @@ public class Server {
 		socket = null;
 		br = null;
 		isr = null;
+		output = null;
 	}
 	
 	/**

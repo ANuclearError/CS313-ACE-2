@@ -97,5 +97,13 @@ Finished:
 		breaking up the previous class' main method into smaller pieces, little
 		was achieved since I felt that after removing some print statements used
 		for checking, the code was small enough to not require further breaking 
-		down. This will be reinvestigated during multithreading part of the
+		down. This will be reassessed during multithreading part of the
 		exercise.
+		
+	v1.3 - 08/11/2014
+	
+		Implemented the Client class, and now the system is capable of
+		communicating between the client and server. Basic testing has shown me
+		than this is working, but I will be doing some more thorough testing
+		in the future as well, since this is still merely the single threaded
+		version.
