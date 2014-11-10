@@ -107,3 +107,11 @@ Finished:
 		than this is working, but I will be doing some more thorough testing
 		in the future as well, since this is still merely the single threaded
 		version.
+		
+	v1.4 - 10/11/2014
+	
+		Generated Javadoc for the project, although since Client and Server are
+		primarily private methods, they have not been included, although this is
+		not a major issue. I have tweaked Client and Server to have fields that
+		make some sense, mainly being the client input and the created message
+		object.

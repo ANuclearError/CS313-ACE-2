@@ -8,7 +8,7 @@ import java.util.Scanner;
  * object from the server, and will display it's content to the user.
  * 
  * @author Aidan O'Grady
- * @version 1.3
+ * @version 1.4
  * @since 1.1
  *
  */
