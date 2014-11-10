@@ -12,27 +12,20 @@ import java.io.*;
  *
  */
 public class Server {
+			
+	/** Message to be sent from server to client. */
+	private Message message;
 	
-	/** Socket listens for incoming connections. */
-	private ServerSocket socket;
-	
-	/** Used for reading the client input stream. */
-	private BufferedReader br;
-	
-	/** Used to read data from client. */
-	private InputStreamReader isr;
-	
-	/** Sending a Message object back to client. */
-	private ObjectOutputStream output;
+	/** The input of the client used to create the message. */
+	private String line;
 	
 	/** 
 	 * Constructor method, initialises a Server object. 
 	 */
 	public Server(){
-		socket = null;
-		br = null;
-		isr = null;
-		output = null;
+		message = null;
+		line = "";
+		run();
 	}
 	
 	/**
@@ -42,18 +35,20 @@ public class Server {
 	 */
 	private void run() {
 		try{
-			socket = new ServerSocket(6100);
+			ServerSocket socket = new ServerSocket(6100);
 			
 			while(true){
 				Socket client = socket.accept(); // Connection found.
 				
 				// Obtaining the string from client.
+				InputStreamReader isr;
 				isr = new InputStreamReader(client.getInputStream());
-				br = new BufferedReader(isr);
-				String line = br.readLine();
+				BufferedReader br = new BufferedReader(isr);
+				line = br.readLine();
 				
 				// Creating and sending a Message object.
-				Message message = new MessageImpl(line);
+				message = new MessageImpl(line);
+				ObjectOutputStream output;
 				output = new ObjectOutputStream(client.getOutputStream());
 				output.writeObject(message);
 			}
@@ -72,7 +67,6 @@ public class Server {
 	 */
 	public static void main(String[] args){
 		Server server = new Server();
-		server.run();
 	}
 
 }
