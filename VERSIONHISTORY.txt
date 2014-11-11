@@ -115,3 +115,12 @@ Finished:	10/11/2014
 		not a major issue. I have tweaked Client and Server to have fields that
 		make some sense, mainly being the client input and the created message
 		object.
+
+================================================================================
+
+Version 2:	MultiThreaded Client/Server
+
+Commenced:	11/11/2014
+Finished:	
+
+--------------------------------------------------------------------------------
