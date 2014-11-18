@@ -7,11 +7,11 @@ import java.io.*;
  * back to the client after setting the counts.
  * 
  * @author Aidan O'Grady
- * @version 2.0
+ * @version 2.1
  * @since 1.1
  *
  */
-public class Server{
+public class Server implements Runnable{
 			
 	/** Message to be sent from server to client. */
 	private Message message;
@@ -19,13 +19,16 @@ public class Server{
 	/** The input of the client used to create the message. */
 	private String line;
 	
+	/** The client the message is to be sent to. */
+	private Socket client;
+	
 	/** 
 	 * Constructor method, initialises a Server object. 
 	 */
-	public Server(){
+	public Server(Socket socket){
 		message = null;
 		line = "";
-		run();
+		client = socket;
 	}
 	
 	/**
@@ -33,31 +36,22 @@ public class Server{
 	 * listen for connections, and will then send back Messages based on input
 	 * received from a client.
 	 */
-	private void run() {
-		try{
-			ServerSocket socket = new ServerSocket(6100);
-			
-			while(true){
-				Socket client = socket.accept(); // Connection found.
-				
-				// To me
-				// Obtaining the string from client.
-				InputStreamReader isr;
-				isr = new InputStreamReader(client.getInputStream());
-				BufferedReader br = new BufferedReader(isr);
-				line = br.readLine();
-				
-				// To you
-				// Creating and sending a Message object.
-				message = new MessageImpl(line);
-				ObjectOutputStream output;
-				output = new ObjectOutputStream(client.getOutputStream());
-				output.writeObject(message);
-			}
-			
-		} catch (IOException ioe){
-			System.err.println(ioe);
+	public void run() {
+		try {
+			// To me
+			// Obtaining the string from client.
+			InputStreamReader isr;
+			isr = new InputStreamReader(client.getInputStream());
+			BufferedReader br = new BufferedReader(isr);
+			line = br.readLine();
+			// To you
+			// Creating and sending a Message object.
+			message = new MessageImpl(line);
+			ObjectOutputStream output;
+			output = new ObjectOutputStream(client.getOutputStream());
+			output.writeObject(message);
+		} catch (IOException err) {
+			System.err.println(err);
 		}
-		
 	}
 }
