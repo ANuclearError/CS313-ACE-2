@@ -134,5 +134,5 @@ Finished:
 	v2.1 - 18/11/2014
 	
 		Created an initial thread pool in the project, with the ServerDriver
-		class contianing and handling the pool. The Server class contians the
+		class containing and handling the pool. The Server class contains the
 		execution of the task. Further testing is required however.
