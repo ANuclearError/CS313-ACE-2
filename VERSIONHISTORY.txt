@@ -136,3 +136,9 @@ Finished:
 		Created an initial thread pool in the project, with the ServerDriver
 		class containing and handling the pool. The Server class contains the
 		execution of the task. Further testing is required however.
+		
+	v2.2 - 18/11/2014
+	
+		Thread pool seems to work fine after testing, so far minor tweaks have
+		been done across the board, ensuring documentation and such is accurate.
+		This feels like a project that can now be submitted..
