@@ -10,12 +10,12 @@ characters and digits in the message. This Message object is sent back to the
 client and it's information is read to the user.
 
 ###Output Example###
-'''
+```
 Please enter a string: The quick brown fox jumped over the lazy dog, 12345
 Original String: The quick brown fox jumped over the lazy dog, 12345
 Char Count: 51
 Digit Count: 5
-'''
+```
 
 ###Motivation###
 This project is my submission for Assessed Coursework Exercise 2 for class CS313
