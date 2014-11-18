@@ -39,18 +39,24 @@ public class Server {
 			
 			while(true){
 				Socket client = socket.accept(); // Connection found.
-				
+				System.out.println("Connection found");
+				System.out.println("Opening server");
+
 				// Obtaining the string from client.
 				InputStreamReader isr;
 				isr = new InputStreamReader(client.getInputStream());
 				BufferedReader br = new BufferedReader(isr);
 				line = br.readLine();
-				
+				System.out.println("String input read");
+
+
 				// Creating and sending a Message object.
 				message = new MessageImpl(line);
 				ObjectOutputStream output;
 				output = new ObjectOutputStream(client.getOutputStream());
 				output.writeObject(message);
+				System.out.println("Message sent");
+
 			}
 			
 		} catch (IOException ioe){
