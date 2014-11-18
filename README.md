@@ -26,7 +26,7 @@ System Concepts with Java 8th Edition" by Silberschatz, Galvin, Gange.
 The purpose behind the assignment was to familiarise students with programming
 with multithreading in mind. It would also help in introducing concepts like
 sockets and thread pools in a Java environment. For further information, see
-[here]([http://classes.myplace.strath.ac.uk/mod/assign/view.php?id=481288).
+[here](http://classes.myplace.strath.ac.uk/mod/assign/view.php?id=481288).
 
 ###Version History###
 To see the version history of this project, see VERSIONHISTORY.TXT for more
