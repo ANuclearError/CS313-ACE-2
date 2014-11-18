@@ -34,13 +34,13 @@ public class Server {
 	 * received from a client.
 	 */
 	private void run() {
+		System.out.println("Opening server");
 		try{
 			ServerSocket socket = new ServerSocket(6100);
 			
 			while(true){
 				Socket client = socket.accept(); // Connection found.
 				System.out.println("Connection found");
-				System.out.println("Opening server");
 
 				// Obtaining the string from client.
 				InputStreamReader isr;
