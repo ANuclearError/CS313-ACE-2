@@ -68,7 +68,7 @@ Finished:	04/11/2014
 		implemented. Currently I am unsure if the testing requires further
 		cases, since the methods being tested are relatively simple.
 
-	v1.0 - 04/11/2014
+	v0.4 - 04/11/2014
 
 		The Message interface, implementation and unit testing are all deemed
 		ready to go and have had some tidying up to finalise this version.
@@ -83,7 +83,7 @@ Finished:	10/11/2014
 
 --------------------------------------------------------------------------------
 
-	v1.1 - 04/11/2014
+	v1.0 - 04/11/2014
 	
 		Created the Client and Server classes, however so far their content has
 		not been implemented yet. Instead, the initial Javadoc has been created
@@ -91,7 +91,7 @@ Finished:	10/11/2014
 		then analyse how it can be improved, before moving forward with the 
 		project.
 
-	v1.2 - 06/11/2014
+	v1.1 - 06/11/2014
 
 		Implemented the Server class, adding it's functionality. In terms of
 		breaking up the previous class' main method into smaller pieces, little
@@ -100,7 +100,7 @@ Finished:	10/11/2014
 		down. This will be reassessed during multithreading part of the
 		exercise.
 		
-	v1.3 - 08/11/2014
+	v1.2 - 08/11/2014
 	
 		Implemented the Client class, and now the system is capable of
 		communicating between the client and server. Basic testing has shown me
@@ -108,7 +108,7 @@ Finished:	10/11/2014
 		in the future as well, since this is still merely the single threaded
 		version.
 		
-	v1.4 - 10/11/2014
+	v1.3 - 10/11/2014
 	
 		Generated Javadoc for the project, although since Client and Server are
 		primarily private methods, they have not been included, although this is
@@ -124,3 +124,9 @@ Commenced:	11/11/2014
 Finished:	
 
 --------------------------------------------------------------------------------
+
+	v2.0 - 11/11/2014
+	
+		Created ServerDriver class, which contains the main method for dealing
+		with the server. This was done in preparation for implementing
+		multithreading within the project.

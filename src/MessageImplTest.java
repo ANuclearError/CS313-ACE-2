@@ -8,7 +8,7 @@ import org.junit.Test;
  * calling their respective getters display an accurate result.
  * 
  * @author Aidan O'Grady
- * @version 1.4
+ * @version 2.0
  * @since 0.3
  *
  */

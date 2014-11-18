@@ -7,7 +7,7 @@ import java.io.*;
  * back to the client after setting the counts.
  * 
  * @author Aidan O'Grady
- * @version 1.4
+ * @version 2.0
  * @since 1.1
  *
  */
@@ -40,7 +40,7 @@ public class Server{
 			while(true){
 				Socket client = socket.accept(); // Connection found.
 				
-				// To Me
+				// To me
 				// Obtaining the string from client.
 				InputStreamReader isr;
 				isr = new InputStreamReader(client.getInputStream());
@@ -59,15 +59,5 @@ public class Server{
 			System.err.println(ioe);
 		}
 		
-	}
-
-	/**
-	 * The main method of this class will start the server side execution
-	 * of the program.
-	 * 
-	 * @param Any arguments added during execution.
-	 */
-	public static void main(String[] args){
-		Server server = new Server();
 	}
 }
