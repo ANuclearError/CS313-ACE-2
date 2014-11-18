@@ -20,6 +20,10 @@ public class Client {
 	/** The message to be received from the server. */
 	private Message message;
 	
+	/**
+	 * Constructor for the Client class. Input and Message are set to dummy
+	 * values initially.
+	 */
 	public Client(){
 		// General set up.
 		input = "";
@@ -63,6 +67,12 @@ public class Client {
 	/**
 	 * Obtains a string input from the user through the use of a scanner.
 	 * This will determine what is sent to the server.
+	 * 
+	 * In this implementation, getInput is executed after the connection is
+	 * established, rather than beforehand. This was done to allow for testing
+	 * to be easier to do, since when the client is waiting for input, it is
+	 * maintaining it's connection to the server, which gives the opportunity
+	 * to test other clients' connections during this idling time. 
 	 * 
 	 * @return the string to be sent to the server.
 	 */

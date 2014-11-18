@@ -16,18 +16,30 @@ public class MessageImplTest {
 
 	Message message = new MessageImpl("abc123"); // New message.
 
+	/**
+	 * A simple test that merely ensures that the message String contained
+	 * within the object is accurate.
+	 */
 	@Test
 	public void testMessage(){ // Testing message is correct.
 		String expected = "abc123"; // Expected value of message.
 		assertTrue(message.getMessage().equals(expected));
 	}
 	
+	/**
+	 * A simple test to determine whether or not the character count is
+	 * accurate.
+	 */
 	@Test
 	public void testChararacterCount() { // Testing characterCount is correct.
 		int expected = 6; // Expected value of characterCount.
 		assertTrue(message.getCharacterCount() == expected);
 	}
 	
+	/**
+	 * A simple test to determine whether or not the digit count is accurate or
+	 * not.
+	 */
 	@Test
 	public void testDigitCount(){ // Testing digitCount is correct.
 		int expected = 3; // Expected value of digitCount.
