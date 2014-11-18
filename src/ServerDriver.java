@@ -25,12 +25,13 @@ public class ServerDriver {
 		Scanner scanner = new Scanner(System.in);
 		try {
 			ServerSocket socket = new ServerSocket(6100);
-			
+			System.out.println("Opening server");
 			// Creating the thread pool.
 			ExecutorService pool = Executors.newCachedThreadPool();
 			
 			while(true){
 				Socket client = socket.accept(); // Connection found.
+				System.out.println("Connection found");
 				pool.execute(new Server(client)); // Execute thread.
 			}
 			

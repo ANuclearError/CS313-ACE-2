@@ -44,12 +44,14 @@ public class Server implements Runnable{
 			isr = new InputStreamReader(client.getInputStream());
 			BufferedReader br = new BufferedReader(isr);
 			line = br.readLine();
+			System.out.println("String input read");
 			// To you
 			// Creating and sending a Message object.
 			message = new MessageImpl(line);
 			ObjectOutputStream output;
 			output = new ObjectOutputStream(client.getOutputStream());
 			output.writeObject(message);
+			System.out.println("Message sent");
 		} catch (IOException err) {
 			System.err.println(err);
 		}
