@@ -24,6 +24,7 @@ public class ServerDriver {
 	public static void main(String[] args){
 		Scanner scanner = new Scanner(System.in);
 		try {
+			
 			ServerSocket socket = new ServerSocket(6100);
 			System.out.println("Opening server");
 			// Creating the thread pool.

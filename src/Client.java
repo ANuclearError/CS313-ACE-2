@@ -22,7 +22,7 @@ public class Client {
 	
 	public Client(){
 		// General set up.
-		input = getInput();
+		input = "";
 		message = null;
 		run();
 	}
@@ -40,6 +40,8 @@ public class Client {
 		
 		try{
 			socket = new Socket("127.0.0.1", 6100);
+			
+			input = getInput(); // Getting the input string.
 			
 			//Sending the input to the server.
 			pw = new PrintWriter(socket.getOutputStream(), true);
