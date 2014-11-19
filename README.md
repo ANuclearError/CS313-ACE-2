@@ -28,39 +28,6 @@ with multithreading in mind. It would also help in introducing concepts like
 sockets and thread pools in a Java environment. For further information, see
 [here](http://classes.myplace.strath.ac.uk/mod/assign/view.php?id=481288).
 
-###Contents###
-In the github repository, there should be:
-- README.md (this file)
-- VERSIONHISTORY.txt
--  src/
-    - Client.java
-    - Message.java
-    - MessageImpl.java
-    - MessageImplTest.java
-    - Server.java
-    - ServerDriver.java
--	doc/    
-    - All the Javadoc, not being listed for brevity's case.
-
-In the submission for the assignment, you will also find
-
-- bin/
-	- Client.class
-	- Message.class
-	- MessageImpl.class
-	- MessageImplTest.class
-	- Server.class
-	- ServerDriver.class
-- jar/
-	- Client.jar
-	- ClientST.jar
-	- Server.jar
-	- ServerST.jar
-
-Please note, .jar files with ST at the end of the file name indicates a
-singlethreaded .jar file included for comparison's sake. The other .jar files
-are multithreaded.
-
 ###Version History###
 To see the version history of this project, see VERSIONHISTORY.TXT for more
 information.
