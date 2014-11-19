@@ -11,10 +11,23 @@ client and it's information is read to the user.
 
 ###Output Example###
 ```
-Please enter a string: The quick brown fox jumped over the lazy dog, 12345
-Original String: The quick brown fox jumped over the lazy dog, 12345
-Char Count: 51
-Digit Count: 5
+Hello and welcome to CS313-ACE-2 Server.
+Author:	Aidan O'Grady
+Reg No:	201218150
+Opening server
+Connection found
+String input read
+Message sent
+```
+The previous three messages will repeat as clients request.
+```
+Hello and welcome to CS313-ACE-2 Client.
+Author:	Aidan O'Grady
+Reg No:	201218150
+Please enter a string: abc123
+Original String: abc123
+Char Count: 6
+Digit Count: 3
 ```
 
 ###Motivation###
