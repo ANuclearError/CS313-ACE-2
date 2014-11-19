@@ -40,8 +40,11 @@ In the github repository, there should be:
     - Server.java
     - ServerDriver.java
 -	doc/
+    
     All the Javadoc, not being listed for brevity's case.
+
 In the submission for the assignment, you will also find
+
 - bin/
 	- Client.class
 	- Message.class
