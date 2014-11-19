@@ -141,4 +141,6 @@ Finished:
 	
 		Thread pool seems to work fine after testing, so far minor tweaks have
 		been done across the board, ensuring documentation and such is accurate.
-		This feels like a project that can now be submitted..
+		This feels like a project that can now be submitted. Added welcoming
+		messages to Server and Client.
+		

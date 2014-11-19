@@ -9,7 +9,7 @@ import java.util.concurrent.*;
  * assist multithreading.
  * 
  * @author Aidan O'Grady
- * @version 2.1
+ * @version 2.2
  * @since 2.0
  *
  */
@@ -22,9 +22,11 @@ public class ServerDriver {
 	 * @param Any arguments added during execution.
 	 */
 	public static void main(String[] args){
-		Scanner scanner = new Scanner(System.in);
-		try {
-			
+		System.out.println("Hello and welcome to CS313-ACE-2 Server.");
+		System.out.println("Author:\tAidan O'Grady");
+		System.out.println("Reg No:\t201218150");
+		
+		try {			
 			ServerSocket socket = new ServerSocket(6100);
 			System.out.println("Opening server");
 			// Creating the thread pool.

@@ -8,7 +8,7 @@ import java.util.Scanner;
  * object from the server, and will display it's content to the user.
  * 
  * @author Aidan O'Grady
- * @version 2.1
+ * @version 2.2
  * @since 1.1
  *
  */
@@ -114,6 +114,9 @@ public class Client {
 	 * @param Any arguments added during execution in terminal.
 	 */
 	public static void main(String[] args){
+		System.out.println("Hello and welcome to CS313-ACE-2 Client.");
+		System.out.println("Author:\tAidan O'Grady");
+		System.out.println("Reg No:\t201218150");
 		Client client = new Client();
 	}
 
