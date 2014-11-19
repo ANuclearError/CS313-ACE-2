@@ -56,6 +56,7 @@ In the submission for the assignment, you will also find
 	- ClientST.jar
 	- Server.jar
 	- ServerST.jar
+
 Please note, .jar files with ST at the end of the file name indicates a
 singlethreaded .jar file included for comparison's sake. The other .jar files
 are multithreaded.
