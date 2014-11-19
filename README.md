@@ -42,18 +42,18 @@ In the github repository, there should be:
 	-	doc/
 		All the Javadoc, not being listed for brevity's case.
 In the submission for the assignment, you will also find
-	-	bin/
-		-	Client.class
-		-	Message.class
-		-	MessageImpl.class
-		-	MessageImplTest.class
-		-	Server.class
-		-	ServerDriver.class
-	-	jar/
-		-	Client.jar
-		-	ClientST.jar
-		-	Server.jar
-		-	ServerST.jar
+	- bin/
+		- Client.class
+		- Message.class
+		- MessageImpl.class
+		- MessageImplTest.class
+		- Server.class
+		- ServerDriver.class
+	- jar/
+		- Client.jar
+		- ClientST.jar
+		- Server.jar
+		- ServerST.jar
 Please note, .jar files with ST at the end of the file name indicates a
 singlethreaded .jar file included for comparison's sake. The other .jar files
 are multithreaded.
