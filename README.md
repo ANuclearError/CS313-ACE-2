@@ -19,7 +19,7 @@ Connection found
 String input read
 Message sent
 ```
-The previous three messages will repeat as clients request.
+The last three messages will repeat as clients request.
 ```
 Hello and welcome to CS313-ACE-2 Client.
 Author:	Aidan O'Grady
