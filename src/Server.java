@@ -45,6 +45,7 @@ public class Server implements Runnable{
 			BufferedReader br = new BufferedReader(isr);
 			line = br.readLine();
 			System.out.println("String input read");
+			
 			// To you
 			// Creating and sending a Message object.
 			message = new MessageImpl(line);
